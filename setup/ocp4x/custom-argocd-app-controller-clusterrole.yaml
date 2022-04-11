@@ -345,6 +345,12 @@ rules:
   - verbs:
       - '*'
     apiGroups:
+      - db2u.databases.ibm.com
+    resources:
+      - dvservices    
+  - verbs:
+      - '*'
+    apiGroups:
       - wkc.cpd.ibm.com
     resources:
       - wkc
